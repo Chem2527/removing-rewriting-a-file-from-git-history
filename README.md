@@ -29,15 +29,15 @@ The file cb_2014_us_zcta510_500k.csv was added and committed to the repository a
 ## Steps to Remove the File from Git History
 If you want to remove the file from your Git history (e.g., for security reasons or migration issues), follow these steps:
 ```bash
-**Step 1**: Backup Your Repository
+Step 1: Backup Your Repository
 Always back up your repository before modifying history:
 git clone --mirror <your-repo-url> repo-backup
 This will create a backup clone of your repository.
-**Step 2**: Identify All References to the Object
+Step 2: Identify All References to the Object
 Find all references to the object using:
 git rev-list --all --objects | grep af3d5f597830edb8876f4350d1507bc61d677e52
 This helps in verifying where the object is being referenced.
-**Step 3**: Remove the File from History
+Step 3: Remove the File from History
 ```
 
 ## Option 1: Using git filter-repo (Recommended)
