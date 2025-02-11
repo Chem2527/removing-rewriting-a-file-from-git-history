@@ -20,7 +20,7 @@ git rev-list --objects --all
 ```bash
 af3d5f597830edb8876f4350d1507bc61d677e52 <FILEPATH>/<FILENAME>
 	af3d5f597830edb8876f4350d1507bc61d677e52: This is the SHA-1 hash of the object corresponding to the file cb_2014_us_zcta510_500k.csv. It uniquely identifies the file in the repository’s history.
-src/assets/postcode-data/us/cb_2014_us_zcta510_500k.csv: This is the path of the file in the repository.
+src/assets/postcode-data/us/<FILENAME>: This is the path of the file in the repository.
 ```
 
 ## What Does the Output Mean?
